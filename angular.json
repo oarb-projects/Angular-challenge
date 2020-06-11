@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-challenge"
+    }
+  },
+  "defaultProject": "angular-challenge",
+  "cli": {
+    "analytics": "816e95c6-2bec-4ffd-925b-0b683345c43f"
+  }
 }

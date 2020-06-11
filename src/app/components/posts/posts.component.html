@@ -1,0 +1,12 @@
+<p>This simple app was made by Oscar Rosete 06/10/20</p>
+<h1>HERE GOES THE INFORMATION</h1>
+<table style="width:100%">
+  <tr>
+    <th>userId</th>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Body</th>
+  </tr>
+  <tr app-post-item *ngFor="let post of posts" [post]="post">
+  </tr>
+</table>
